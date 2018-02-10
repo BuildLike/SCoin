@@ -16,7 +16,7 @@ use solo\scoin\task\CoinPriceBroadcastTask;
 
 class SCoin extends PluginBase{
 
-  public static $prefix = "§b§l[SCoin] §r§7";
+  public static $prefix = "§d[§f 가상화폐 §d] §r§7";
 
   public static $nameList = [
     "BTC" => "비트코인",
@@ -24,6 +24,8 @@ class SCoin extends PluginBase{
     "LTC" => "라이트코인",
     "ETC" => "이더리움 클래식",
     "XRP" => "리플",
+    "SVC" => "서버코인",
+    "NTC" => "엔티 코인",
     "BCH" => "비트코인 캐시"
   ];
 
